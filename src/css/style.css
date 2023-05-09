@@ -1,0 +1,119 @@
+.panel{
+    background: url(../images/pattern-background-desktop.svg) no-repeat;
+    background-size: contain;
+    background-color: var(--pale-blue);
+    
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: var(--very-pale-blue);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 58rem;
+    width: 40.8rem;
+    /* padding: 4.2rem; */
+    border-radius: 1.8rem;
+}
+
+.container .image img{
+    width: 100%;
+    border-top-left-radius: 1.8rem;
+    border-top-right-radius: 1.8rem;
+}
+
+.container .description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 3rem 4.2rem 4rem 4.2rem;
+}
+
+/* DADOS */
+.container .description .data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .description .data h1{
+    font-size: 2.6rem;
+}
+
+.container .description .data p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--desaturated-blue);
+
+    text-align: center;
+    line-height: 2.4rem;
+    margin-top: 1.5rem;
+    padding: 0 2rem;
+}
+
+/* MUSIC */
+.container .description .music-description{
+    display: flex;
+    align-items: center;
+
+    margin-top: 2.8rem;
+}
+
+.container .description .music-description .music{
+    display: flex;
+    align-items: center;
+    margin-right: 7.4rem;
+}
+
+.container .description .music-description .music h2{
+    font-weight: 900;
+}
+
+.container .description .music-description .music p{
+    color: var(--desaturated-blue);
+    margin-top: 0.4rem;
+    font-size: 1.2rem;
+}
+
+.container .description .music-description .change p{
+    font-size: 1.3rem;
+    font-weight: 900;
+    text-decoration: underline;
+    color: var(--bright-blue);
+}
+
+.container .description .music-description img{
+    margin-right: 2rem;
+}
+
+/* BUTTON */
+.container .description .button{
+    margin-top: 3.8rem;
+}
+
+.container .description .button .main-btn{
+    font-weight: 700;
+    padding: 1.6rem 10rem;
+
+    border: none;
+    border-radius: 1rem;
+    background-color: var(--bright-blue);
+    color: var(--very-pale-blue);
+}
+
+.container .description .btn-cancel{
+    margin-top: 2.4rem;
+}
+
+.container .description .btn-cancel a{
+    font-size: 1.4rem;
+}
