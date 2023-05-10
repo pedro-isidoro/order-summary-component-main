@@ -6,12 +6,12 @@
     }
 
     .container{
-        height: 58rem;
+        height: 55rem;
         width: 35.8rem;
     }
     
     .container .description .data p{
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         
         line-height: 2rem;
     }
@@ -27,12 +27,18 @@
 
 @media(max-width: 405px){
     .container{
-        height: 58rem;
+        height: 52rem;
         width: 30.8rem;
     }
 
     .container .description .data h1{
         font-size: 2.2rem;
+    }
+
+    .container .description .data p{
+        font-size: 1.15rem;
+        
+        line-height: 1.6rem;
     }
 
     .container .description .music-description .music{
@@ -50,23 +56,33 @@
 
 @media(max-width: 330px){
     .container{
-        height: 58rem;
-        width: 30.8rem;
+        height: 47rem;
+        width: 25.8rem;
     }
 
     .container .description .data h1{
         font-size: 2.2rem;
     }
 
+    .container .description .data p{
+        font-size: 1.05rem;
+        
+        line-height: 1.6rem;
+    }
+
     .container .description .music-description .music{
-        margin-right: 4.6rem;
+        margin-right: 4rem;
     }
 
     .container .description .music-description .music h2{
         font-size: 1.2rem;
     }
 
+    .container .description .music-description .change a{
+        font-size: 1rem;
+    }
+
     .container .description .button .main-btn{
-        padding: 1.3rem 5.2rem;
+        padding: 1.1rem 4.6rem;
     }
 }
