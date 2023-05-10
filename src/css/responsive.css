@@ -1,3 +1,72 @@
 @media(max-width: 490px){
+    .panel{
+        background: url(../images/pattern-background-mobile.svg) no-repeat;
+        background-size: contain;
+        background-color: var(--pale-blue);
+    }
+
+    .container{
+        height: 58rem;
+        width: 35.8rem;
+    }
     
+    .container .description .data p{
+        font-size: 1.2rem;
+        
+        line-height: 2rem;
+    }
+
+    .container .description .music-description .music{
+        margin-right: 5.4rem;
+    }
+
+    .container .description .button .main-btn{
+        padding: 1.6rem 7.2rem;
+    }
+}
+
+@media(max-width: 405px){
+    .container{
+        height: 58rem;
+        width: 30.8rem;
+    }
+
+    .container .description .data h1{
+        font-size: 2.2rem;
+    }
+
+    .container .description .music-description .music{
+        margin-right: 4.6rem;
+    }
+
+    .container .description .music-description .music h2{
+        font-size: 1.2rem;
+    }
+
+    .container .description .button .main-btn{
+        padding: 1.3rem 5.2rem;
+    }
+}
+
+@media(max-width: 330px){
+    .container{
+        height: 58rem;
+        width: 30.8rem;
+    }
+
+    .container .description .data h1{
+        font-size: 2.2rem;
+    }
+
+    .container .description .music-description .music{
+        margin-right: 4.6rem;
+    }
+
+    .container .description .music-description .music h2{
+        font-size: 1.2rem;
+    }
+
+    .container .description .button .main-btn{
+        padding: 1.3rem 5.2rem;
+    }
 }
